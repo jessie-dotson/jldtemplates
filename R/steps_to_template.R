@@ -16,7 +16,11 @@
 
 ## the below command from the usethis package sets up the necessary directory
 # structure, a basic template.yaml, and a skeleton.Rmd to edit
-use_rmarkdown_template(template_name = "Exploratory Analysis",
-                       template_dir = "ExploratoryAnalysis",
-                       template_description = "Jessie's standard exploratory analysis",
-                       template_create_dir = FALSE)
+
+#use_rmarkdown_template(template_name = "Exploratory Analysis",
+#                       template_dir = "ExploratoryAnalysis",
+#                       template_description = "Jessie's standard exploratory analysis",
+#                       template_create_dir = FALSE)
+
+# to install from github 
+#devtools::install_github('jessie-dotson/jldtemplates')
