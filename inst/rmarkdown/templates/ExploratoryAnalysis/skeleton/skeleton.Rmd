@@ -1,0 +1,49 @@
+---
+title: "Exploratory Analysis"
+author: "J. Dotson"
+date: "The Date"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+require(ggplot2)
+require(dplyr)
+require(knitr)
+require(readr)
+require(tidyr)
+
+
+knitr::opts_knit$set(root.dir = '../.')
+myecho = FALSE
+```
+
+## Start by reading in data
+
+
+
+```{r download, echo=myecho}
+
+downloadnow <- TRUE
+
+if (downloadnow) {
+  
+}
+
+
+```
+
+
+```{r  , echo=myecho}
+
+```
+
+
+
+```{r versioninfo, echo=myecho}
+sessionInfo()
+```
+
+
+
